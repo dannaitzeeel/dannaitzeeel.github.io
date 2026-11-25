@@ -356,3 +356,32 @@ footer {
         text-align: center;
     }
 }
+.concierto-info {
+    margin-top: 0.6rem;
+    padding: 0 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.referencia-precio {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}
+#proximos-conciertos {
+    padding: 5rem 2rem;
+    background-color: #ffffff;
+}
+
+#proximos-conciertos h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+}
+
+#proximos-conciertos .artista-card {
+    padding-top: 1.5rem;
+}
