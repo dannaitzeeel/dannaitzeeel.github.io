@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto_9_Ambrosio_Danna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./img/sonreir.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Festival 2026</div>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#formulario-contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Festival de Verano 2026</h1>
+            <p>El evento con los artistas top 1</p>
+            <a href="#entradas" class="cta-button">Comprar Entradas</a>
+        </section>
+
+        <section id="artistas">
+            <h2>Artistas Destacados</h2>
+            <div class="artistas-grid">
+                <div class="artista-card">
+                    <img src="img/kaliii.webp" alt="Kali Uchis">
+                    <h3>Kali Uchis</h3>
+                    <p>Pop/Rock</p>
+                </div>
+                <div class="artista-card">
+                    <img src="img/artista2.webp" alt="Alvaro Diaz">
+                    <h3>Alvaro Diaz</h3>
+                    <p>Pop/Rock</p>
+                </div>
+                <div class="artista-card">
+                    <img src="img/artista3.webp" alt="Joji">
+                    <h3>Joji</h3>
+                    <p>Pop/Rock</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="entradas">
+            <h2>Tipos de Entradas</h2>
+            <div class="entrada-grid">
+                <div class="entrada-card">
+                    <h3>Entrada Básica</h3>
+                    <p class="precio">$2000</p>
+                    <ul>
+                        <li>Acceso al festival</li>
+                        <li>Conciertos principales</li>
+                        <li>Área general</li>
+                    </ul>
+                    <button type="button">Comprar</button>
+                </div>
+                <div class="entrada-card destacada">
+                    <h3>Entrada VIP</h3>
+                    <p class="precio">$5000</p>
+                    <ul>
+                        <li>Acceso VIP</li>
+                        <li>Meet and Greet</li>
+                        <li>Conciertos principales</li>
+                        <li>Área VIP</li>
+                    </ul>
+                    <button type="button">Comprar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="formulario-contacto">
+            <h2>Contáctanos</h2>
+            <form action="https://formspree.io/f/xoedyzre" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu duda o comentario..." required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: info@festival2026.com</p>
+                <p>Tel: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/channel/UCQTuAezPu6MOpcIJ1Tz9dNA" target="_blank" rel="noopener noreferrer" class="footer__icons">
+                        <img src="./img/youtube.svg" class="footer__img" alt="YouTube">YouTube
+                    </a>
+                    <a href="https://open.spotify.com/intl-es/artist/6MaM9ZaORjgTKFTaHOTk9k" target="_blank" rel="noopener noreferrer" class="footer__icons">
+                        <img src="./img/spotify.png" class="footer__img" alt="Spotify">Spotify
+                    </a>
+                    <a href="https://www.youtube.com/user/yoAlvaroDiaz?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="footer__icons">
+                        <img src="./img/youtube.svg" class="footer__img" alt="YouTube">YouTube
+                    </a>
+                    <a href="https://open.spotify.com/intl-es/artist/5J7rXWjtn5HzUkJ4Jet8Fr" target="_blank" rel="noopener noreferrer" class="footer__icons">
+                        <img src="./img/spotify.png" class="footer__img" alt="Spotify">Spotify
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ" target="_blank" rel="noopener noreferrer" class="footer__icons">
+                        <img src="./img/youtube.svg" class="footer__img" alt="YouTube">YouTube
+                    </a>
+                    <a href="https://open.spotify.com/intl-es/artist/3MZsBdqDrRTJihTHQrO6Dq" target="_blank" rel="noopener noreferrer" class="footer__icons">
+                        <img src="./img/spotify.png" class="footer__img" alt="Spotify">Spotify
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Festival de Verano. Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
